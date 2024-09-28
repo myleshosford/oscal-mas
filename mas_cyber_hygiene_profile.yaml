@@ -1,0 +1,19 @@
+---
+profile:
+  uuid: 324D2C66-1318-4957-A1EC-F500E1C91F71
+  metadata:
+    title: Notice FSM-N06 Cyber Hygiene Profile
+    published: 2024-09-28T05:48:59.905218Z
+    last-modified: 2024-09-28T05:48:59.905218Z
+    version: 2024.09.28
+    oscal-version: 1.1.2
+  imports:
+  - href: '#B5DFA212-3773-4D45-85F4-6E2CBC20E376'
+    include-controls:
+    - with-ids: 
+      - administrative-accounts
+      - security-patches
+      - security-standards
+      - network-perimeter-defence
+      - malware-protection
+      - multi-factor-authentication

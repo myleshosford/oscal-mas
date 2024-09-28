@@ -6,3 +6,7 @@ This repo provides the Monetary Authority of Singapore (MAS) Notice of Cyber Hyg
 
 You can validate that the catalog is in a valid OSCAL format as declared in the documents metadata field using [https://github.com/defenseunicorns/go-oscal/](go-oscal).
 
+```
+./go-oscal validate -f mas_cyber_hygiene_catalog.yaml
+```
+
