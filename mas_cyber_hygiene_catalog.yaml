@@ -1,0 +1,64 @@
+---
+catalog:
+  uuid: abea4b79-3bd3-4f68-a333-85cbebb5100d
+  metadata: 
+    title: Notice FSM-N06 Cyber Hygiene
+    published: 2024-09-28T05:48:59.905218Z
+    last-modified: 2024-09-28T05:48:59.905218Z
+    version: 2024.09.28
+    oscal-version: 1.1.2
+  controls:
+  - id: administrative-accounts
+    title: Administrative Accounts
+    parts:
+    - id: administrative-accounts_smt_1
+      name: statement
+      prose: A relevant entity must ensure that every administrative account in respect of any operating system, database, application, security appliance or network device, is secured to prevent any unauthorised access to or use of such account.
+  - id: security-patches
+    title: Security Patches
+    parts:
+    - id: security-patches_smt_1
+      name: statement
+      prose: A relevant entity must ensure that security patches are applied to address vulnerabilities to every system, and apply such security patches within a timeframe that is commensurate with the risks posed by each vulnerability
+    - id: security-patches-smt_2
+      name: statement
+      prose: Where no security patch is available to address a vulnerability, the relevant entity must ensure that controls are instituted to reduce any risk posed by such vulnerability to such a system.
+  - id: security-standards
+    title: Security standards
+    parts:
+    - id: security-standards_smt_1
+      name: statement
+      prose: A relevant entity must ensure that there is a written set of security standards for every system.
+    - id: security-standards-smt_2
+      name: statement
+      prose: Subject to sub-paragraph (c), a relevant entity must ensure that every system conforms to the set of security standards.      
+    - id: security-standards-smt_3
+      name: statement
+      prose: Where the system is unable to conform to the set of security standards, the relevant entity must ensure that controls are instituted to reduce any risk posed by such nonconformity.
+  - id: network-perimeter-defence
+    title: Network Perimeter Defence
+    parts:
+    - id: network-perimeter-defence_smt_1
+      name: statement
+      prose: A relevant entity must implement controls at its network perimeter to restrict all unauthorised network traffic.
+  - id: malware-protection
+    title: Malware Protection
+    parts:
+    - id: malware-protection_smt_1
+      name: statement
+      prose: A relevant entity must ensure that one or more malware protection measures are implemented on every system, to mitigate the risk of malware infection, where such malware protection measures are available and can be implemented.
+  - id: multi-factor-authentication
+    title: Multi-Factor Authentication
+    parts:
+    - id: mfa_authentication_smt_1
+      name: statement
+      prose: A relevant entity must ensure that multi-factor authentication is implemented for the following (a) all administrative accounts in respect of any operating system, database, application, security appliance or network device that is a critical system; and
+    - id: mfa_authentication_smt_2
+      name: statement
+      prose: (b) all accounts on any system used by the relevant entity to access customer information through the internet.
+  back-matter:
+    resources:
+    - uuid: 282290B3-FBD4-4E81-803C-E06B3BAAE437
+      title: Notice FSM-N06 Cyber Hygiene
+      rlinks:
+      - href: https://www.mas.gov.sg/regulation/notices/notice-fsm-n06
