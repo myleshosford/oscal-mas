@@ -1,6 +1,6 @@
 # OSCAL
 
-This repo provides the Monetary Authority of Singapore (MAS) Notice of Cyber Hygiene in the Open Security Controls Assessment Language (OSCAL), a standardised machine-readable format by the US NIST. This notice is provided as an OSCAL catalog.
+This repo provides the Monetary Authority of Singapore (MAS) Notice of Cyber Hygiene in the Open Security Controls Assessment Language (OSCAL), a standardised machine-readable format by the US NIST. This notice is provided as an OSCAL catalog with a corresponding OSCAL profile - useful for building automated system security plans (SSPs) and embedding into CI automation jobs. 
 
 ## Validation
 
